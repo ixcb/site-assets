@@ -656,7 +656,7 @@ var MAC={
                 })
             },
             'Css':function(){
-                $("#cssFile").attr('href','/mxtheme/css/'+MAC.Cookie.Get('mx_style')+'.css');
+                $("#cssFile").attr('href',maccms.jsdelivr+'mxtheme/css/'+MAC.Cookie.Get('mx_style')+'.css');
             }
         },
     'AddEm':function(obj,i){
