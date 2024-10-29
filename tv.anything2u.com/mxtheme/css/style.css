@@ -3312,18 +3312,18 @@ input[type=checkbox] {
 
 @media (max-width: 4096px) {
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+2) {
-		display: none
+		display: inline-block
 	}
 }
 
 @media (max-width: 1789px) {
 	.module-poster-items-small .module-poster-item:last-child {
-		display: none
+		display: inline-block
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+3),
 	.module-poster-items-base .module-poster-item:nth-last-child(-n+2) {
-		display: none
+		display: inline-block
 	}
 
 	.view .module-poster-items-base .module-poster-item,
@@ -3333,7 +3333,7 @@ input[type=checkbox] {
 
 	.view .module-poster-items-base .module-poster-item:nth-child(n+15),
 	.player .module-poster-items-base .module-poster-item:nth-child(n+15) {
-		display: none !important
+		display: inline-block !important
 	}
 
 	.module-poster-item {
@@ -3355,23 +3355,23 @@ input[type=checkbox] {
 	}
 
 	.module-poster-items-small .module-poster-item:nth-last-child(-n+2) {
-		display: none
+		display: inline-block
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+4) {
-		display: none
+		display: inline-block
 	}
 
 	/*.module-poster-items-base .module-poster-item:nth-last-child(-n+4) {*/
 	/*	display: none*/
 	/*}*/
 	.module-poster-items-base .module-poster-item:nth-child(n+13) {
-		display: none
+		display: inline-block
 	}
 
 	.view .module-poster-items-base .module-poster-item:nth-child(n+13),
 	.player .module-poster-items-base .module-poster-item:nth-child(n+13) {
-		display: none !important
+		display: inline-block !important
 	}
 
 	.module-play-list-base .module-play-list-link {
@@ -3754,7 +3754,7 @@ input[type=checkbox] {
 	}
 
 	.module-paper-item:last-child {
-		display: none
+		display: inline-block
 	}
 
 	.module-poster-item {
@@ -3762,7 +3762,7 @@ input[type=checkbox] {
 	}
 
 	.module-poster-items-small .module-poster-item:nth-last-child(-n+3) {
-		display: none
+		display: inline-block
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+4) {
@@ -3777,7 +3777,7 @@ input[type=checkbox] {
 	/*	display: none*/
 	/*}*/
 	.module-poster-items-base .module-poster-item:nth-child(n+16) {
-		display: none
+		display: inline-block
 	}
 
 	.view .module-poster-items-base .module-poster-item:nth-child(n+13),
@@ -3787,7 +3787,7 @@ input[type=checkbox] {
 
 	.view .module-poster-items-base .module-poster-item:nth-child(n+16),
 	.player .module-poster-items-base .module-poster-item:nth-child(n+16) {
-		display: none !important
+		display: inline-block !important
 	}
 
 	.module-paper-item-main a:hover {
@@ -3996,14 +3996,14 @@ input[type=checkbox] {
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+2) {
-		display: none
+		display: inline-block
 	}
 
 	/*.module-poster-items-base .module-poster-item:nth-last-child(-n+4) {*/
 	/*	display: none*/
 	/*}*/
 	.module-poster-items-base .module-poster-item:nth-child(n+13) {
-		display: none
+		display: inline-block
 	}
 
 	.view .module-poster-items-base .module-poster-item:nth-child(n+16),
@@ -4028,7 +4028,7 @@ input[type=checkbox] {
 	}
 
 	.module-paper-item:nth-last-child(-n+2) {
-		display: none
+		display: inline-block
 	}
 
 	.module-item-note {
@@ -4869,7 +4869,7 @@ input[type=checkbox] {
 	}
 
 	.module-paper-item-main a:nth-last-child(-n+5) {
-		display: none
+		display: inline-block
 	}
 
 	.module-paper-item-num {
@@ -4885,7 +4885,7 @@ input[type=checkbox] {
 	/*	display: none*/
 	/*}*/
 	.module-poster-items-base .module-poster-item:nth-child(n+13) {
-		display: none
+		display: inline-block
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+2) {
@@ -4893,12 +4893,12 @@ input[type=checkbox] {
 	}
 
 	.module-poster-items-aline .module-poster-item:nth-last-child(-n+1) {
-		display: none
+		display: inline-block
 	}
 
 	.view .module-poster-items-base .module-poster-item:nth-child(16),
 	.player .module-poster-items-base .module-poster-item:nth-child(16) {
-		display: none !important
+		display: inline-block !important
 	}
 
 	.module-paper-item:nth-last-child(-n+2) {
